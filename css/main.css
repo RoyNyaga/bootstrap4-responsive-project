@@ -84,3 +84,48 @@ body {
 }
 
 /*end banner section*/
+
+/*Services start*/
+.header h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.header-underline {
+	width: 150px;
+	border: 3px solid #F15025;
+	margin: 0 auto 20px auto;
+}
+
+.header p {
+	font-size: 16px;
+	padding: 0 30px;
+}
+
+#services {
+	background: #CED0CE;
+	padding: 40px;
+}
+
+.services-container .fa {
+	font-size: 100px;
+	color: #F15025;
+}
+
+#services h2 {
+	margin: 10px auto 20px auto;
+}
+
+.services-container p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.services-container {
+	padding: 20px 40px;
+}
+
+
+
+/*Services end*/
