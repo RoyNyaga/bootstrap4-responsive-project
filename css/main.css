@@ -157,5 +157,22 @@ body {
 	font-size: 40px;
 }
 
-
 /*End of promise section*/
+
+/*Skills section*/
+	
+#skills {
+	color: whitesmoke;
+	background: #353531;
+	padding: 40px 40px;
+}
+
+#skills .col-sm-6{
+	padding: 0 40px;
+}
+
+#skills .progress {
+	border-radius: 0px;
+	background: #CED0CE;
+}
+/*End of skills section*/
