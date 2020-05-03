@@ -126,6 +126,36 @@ body {
 	padding: 20px 40px;
 }
 
-
-
 /*Services end*/
+
+/*Promise section*/
+
+.promise-picture {
+	height: 600px;
+	background: url("/images/header-background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 600px solid transparent;
+	border-right: 150px solid whitesmoke;
+}
+
+.promise-text {
+	height: 600px;
+	background: whitesmoke;
+	padding: 40px 20px;
+}
+
+.promise-icons {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+#promise .fa{
+	color: #F15025;
+	font-size: 40px;
+}
+
+
+/*End of promise section*/
