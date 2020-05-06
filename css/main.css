@@ -176,3 +176,37 @@ body {
 	background: #CED0CE;
 }
 /*End of skills section*/
+
+/*jumbotron section*/
+.jumbotron {
+	margin-bottom: 0;
+	padding: 40px;
+	background: #F15025;
+}
+
+.jumbo h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.jumbo a {
+	font-size: 30px;
+	border: 2px solid whitesmoke;
+	display: inline-block;
+	padding: 15px 20px;
+	margin-top: 40px;
+	color: whitesmoke;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.jumbo a:hover {
+	color: #F15025;
+	background: whitesmoke;
+}
+
+
+
+/*end of jumbotron section*/
