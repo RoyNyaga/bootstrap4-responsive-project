@@ -207,6 +207,34 @@ body {
 	background: whitesmoke;
 }
 
-
-
 /*end of jumbotron section*/
+
+/*Work section*/
+#work{
+	background-color: #CED0CE;
+}
+
+#work .header {
+	padding: 40px;
+}
+
+#work .col-sm-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#work .img-box {
+	overflow: hidden;
+}
+
+#work img {
+	transition: transform 4s ease-in-out;
+}
+
+#work img:hover {
+	transform: scale(1.3);
+}
+
+
+
+/*End of work section*/
