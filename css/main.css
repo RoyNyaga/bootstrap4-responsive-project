@@ -258,3 +258,19 @@ body {
 	margin: 40px 0;
 }
 /*end of team section*/
+
+/*numbers section*/
+#numbers{
+	padding: 40px;
+	background: url('/images/header-background.jpg') fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+#numbers .fa{
+	font-size: 40px;
+	color: #F15025;
+}
+/*end of numbers section*/
