@@ -274,3 +274,66 @@ body {
 	color: #F15025;
 }
 /*end of numbers section*/
+
+/*pricing section*/
+#pricing {
+	padding: 40px;
+	background-color: #CED0CE;
+}
+
+#pricing .panel{
+	border: 1px solid #F15025;
+}
+
+#pricing .panel-heading {
+	background: #F15025;
+}
+
+#pricing .panel-heading h3 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+/*#pricing .title {
+	margin: 20pc 0 20px 0;
+}
+*/
+#pricing .title h1 {
+	font-size: 60px;
+}
+
+#pricing ul {
+	list-style: none;
+	padding: 0!important;
+}
+
+#pricing ul li {
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
+#pricing .panel-footer {
+	color: whitesmoke;
+	background: black;
+	font-size: 16px;
+}
+
+#pricing .panel-footer a {
+	color: #F15025;
+	border-color: #F15025;
+}
+
+#pricing .panel-footer  a:hover {
+	background-color: whitesmoke;
+}
+
+#pricing hr {
+	width: 60%;
+	margin: 10px auto;
+	border: 1px solid #F15025;
+}
+
+
+
+
+/*end of pricing section*/
