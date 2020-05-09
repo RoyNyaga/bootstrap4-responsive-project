@@ -235,6 +235,26 @@ body {
 	transform: scale(1.3);
 }
 
-
-
 /*End of work section*/
+
+/*Team section*/
+#team {
+	border-top: 6px solid #F15025;
+	padding: 40px;
+	background-color: whitesmoke;
+}
+
+#team img {
+	background-color: #F15025;
+}
+
+#team .fab{
+	font-size: 40px;
+	margin-right: 10px;
+	color: #F15025;
+}
+
+#team .col-sm-6 {
+	margin: 40px 0;
+}
+/*end of team section*/
