@@ -455,6 +455,43 @@ body {
 
 /*End of client section*/
 
+/*quotes section*/
+#quotes{
+	color: whitesmoke;
+	background: url('/images/bavaria-munich-octoberfest-oktoberfest-9827.jpg') fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.quotes-background {
+	background: rgba(0,0,0,0.7);
+}
+
+#quotes img{
+	width: 200px;
+	background: #F15025;
+}
+
+#quotes blockquote {
+	border-left: 0;
+	line-height: 2;
+	font-size: 2;
+	font-size: 19px;
+}
+
+#quotes blockquote footer{
+	color: red;
+	font-size: 16px;
+}
+
+#quotes .fa{
+	color: #F15025;
+	font-size: 40px;
+	margin: 0 10px;
+}
+/*end of quotes section*/
+
 
 
 
