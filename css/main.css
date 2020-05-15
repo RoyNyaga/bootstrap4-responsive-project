@@ -520,9 +520,35 @@ body {
 	color: #353531;
 }
 
-
 /*End of contact section*/
 
+/*Footer section*/
+#footer {
+	padding: 20px 40px;
+	color: whitesmoke;
+	background: #353531;
+}
+
+#footer .footer-icons {
+	font-size: 60px;
+}
+
+#footer .footer-icons a{
+	color: #F15025;
+	text-decoration: none;
+	padding-top: 30px;
+}
+
+#footer .footer-icons a:hover {
+	color: deepskyblue;
+}
+
+#footer .copyrights h3{
+	padding: 40px 0;
+	color: #CED0CE;
+}
+
+/*End of footer section*/
 
 
 
