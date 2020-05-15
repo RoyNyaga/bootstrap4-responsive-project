@@ -14,6 +14,7 @@ body {
 }
 
 /*banner section*/
+
 	#banner {
 		height: 100%;
 		background: url("/images/header-background.jpg") fixed;
@@ -549,6 +550,26 @@ body {
 }
 
 /*End of footer section*/
+
+/*Navbar*/
+#navbar-wrapper-nav{
+	background: #181c2b;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+	padding: 5px;
+	border-top: 2px solid #F15025;
+	color: #F15025;
+}
+
+.transparent-nav {
+	background: rgba(0,0,0,0.7);
+}
+/*End of Navbar*/
 
 
 

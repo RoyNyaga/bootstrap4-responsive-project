@@ -2,11 +2,11 @@
 
 $(document).ready(function () {
   $('.image-container').magnificPopup({
-	  delegate: 'a', // child items selector, by clicking on it popup will open
-	  type: 'image',
-	  gallery: {
-	  	enabled: true
-	  }
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
   })
 })
 
@@ -14,15 +14,15 @@ $(document).ready(function () {
 $(document).ready(function () {
   var owl = $('#logo')
   owl.owlCarousel({
-	    items: 4,
-	    loop: true,
-	    nav: true,
-	    margin: 10,
-	    autoplay: true,
-	    autoplayTimeout: 2000,
-	    smartSpeed: 4000,
-	    autoplayHoverPause: true,
-	    responsive: {
+    items: 4,
+    loop: true,
+    nav: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    smartSpeed: 4000,
+    autoplayHoverPause: true,
+    responsive: {
       0: {
         items: 2
       },
@@ -35,10 +35,10 @@ $(document).ready(function () {
     }
   })
   $('.play').on('click', function () {
-			    owl.trigger('play.owl.autoplay', [1000])
+    owl.trigger('play.owl.autoplay', [1000])
   })
   $('.stop').on('click', function () {
-			    owl.trigger('stop.owl.autoplay')
+    owl.trigger('stop.owl.autoplay')
   })
 })
 
@@ -46,14 +46,14 @@ $(document).ready(function () {
 $(document).ready(function () {
   var owl = $('#customers')
   owl.owlCarousel({
-	    items: 4,
-	    loop: true,
-	    nav: true,
-	    margin: 10,
-	    autoplay: true,
-	    autoplayTimeout: 4000,
-	    autoplayHoverPause: true,
-	    responsive: {
+    items: 4,
+    loop: true,
+    nav: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+    responsive: {
       0: {
         items: 1
       },
@@ -66,9 +66,22 @@ $(document).ready(function () {
     }
   })
   $('.play').on('click', function () {
-			    owl.trigger('play.owl.autoplay', [1000])
+    owl.trigger('play.owl.autoplay', [1000])
   })
   $('.stop').on('click', function () {
-			    owl.trigger('stop.owl.autoplay')
+    owl.trigger('stop.owl.autoplay')
   })
 })
+
+// the code bolow does not work, feel free to look into it.
+
+// $(document).ready(function () {
+//   $(window).scroll(function () {
+//     var location = $(this).scrollTop()
+//     if (location < 70) {
+//       $('nav').removeClass('transparent-nav')
+//     } else {
+//       $('nav').addClass('transparent-nav')
+//     }
+//   })
+// })
