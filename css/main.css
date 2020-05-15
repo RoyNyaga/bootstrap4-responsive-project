@@ -492,6 +492,36 @@ body {
 }
 /*end of quotes section*/
 
+/*contact section*/
+#contact {
+	background: #F15025;
+	color: whitesmoke;
+	padding: 40px 0;
+}
+
+#contact .header {
+	padding-bottom: 20px;
+}
+
+#contact .form-control {
+	border-radius: 0;
+	font-size: 20px;
+}
+
+#contact button{
+	background: #353531;
+	font-size: 24px;
+	color: #F15025;
+	margin-bottom: 20px;
+}
+
+#contact button:hover {
+	background: #CED0CE;
+	color: #353531;
+}
+
+
+/*End of contact section*/
 
 
 
