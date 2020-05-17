@@ -10,13 +10,53 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Animated cdd -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
-    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
   </head>
+
   <body>
 <!-- Banner section -->
-    <section id="banner">
+    <section id="banner" class="wow animate__flipInX" data-wow-duration="6s">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md fixed-top" id="navbar-wrapper-nav">
+        <a style="width: 10%;" class="navbar-brand" href="/"><img src="https://res.cloudinary.com/it-s-tech/image/upload/v1584749042/own-your-life/Own_Yout-02_axwbht.png" style="width: 100%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="true">
+          <span class="navbar-toggler-icon"><i class="fas fa-sliders-h text-dark"></i></span>
+        </button>
+
+        <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+          <ul class="navbar-nav ml-auto h5">
+            <li class="nav-item">
+              <a data-turbolinks="false" class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a data-turbolinks="false" class="nav-link" href="#promise">Promise</a>
+            </li>
+            <li class="nav-item">
+              <a data-turbolinks="false" class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#numbers">Numbers</a>
+            </li> 
+            <!-- <li class="nav-item">
+              <a class="nav-link modal-trigger logged-out" data-toggle="modal" data-target="#modalsignup" href="#">Sign up</a>
+            </li>   -->   
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
       <div id="banner-content">
         <div id="banner-box">
           <h1><strong>Imagine</strong></h1>
@@ -25,7 +65,7 @@
         </div>
       </div>
       <div id="banner-icon">
-        <a href="#services" class="wow bounce" data-wow-iteration="infinite"><i class="fa fa-angle-double-down"></i></a>
+        <a href="#services" class="wow animate__bounce" data-wow-duration="5s" data-wow-iteration="infinite"><i class="fa fa-angle-double-down"></i></a>
       </div>
     </section>
 <!-- End of banner section -->
@@ -42,7 +82,17 @@
 
         <div class="row">
           <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-desktop wow animate__backInLeft" data-wow-duration="2s"></i>
+            <h2><strong>Service1</strong></h2>
+            <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 services-container text-center">
+            <i class="fa fa-desktop wow animate__backInDown" data-wow-duration="2s"></i>
             <h2><strong>Service</strong></h2>
             <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -52,7 +102,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-desktop wow animate__backInRight" data-wow-duration="2s"></i>
             <h2><strong>Service</strong></h2>
             <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -62,7 +112,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-desktop wow animate__backInLeft" data-wow-duration="2s"></i>
             <h2><strong>Service</strong></h2>
             <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -72,7 +122,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-desktop wow animate__backInDown" data-wow-duration="2s"></i>
             <h2><strong>Service</strong></h2>
             <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -82,17 +132,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
-            <h2><strong>Service</strong></h2>
-            <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 services-container text-center">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-desktop wow animate__backInRight" data-wow-duration="2s"></i>
             <h2><strong>Service</strong></h2>
             <p class="text-muter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -112,25 +152,25 @@
           <div class="col-sm-6 promise-picture"></div>
           <div class="col-sm-6 promise-text">
             <div class="header text-center">
-              <h1><strong>Promise</strong></h1>
+              <h1 class="wow animate__fadeInRight" data-wow-duration="2s"><strong>Promise</strong></h1>
               <div class="header-underline"></div>
               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               </p>
             </div>
             <div class="promise-icons">
-              <div>
+              <div class="wow animate__fadeInLeft" data-wow-duration="2s">
                 <h2>
                   <i class="fa fa-thumbs-up"></i> Promise
                 </h2>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
               </div>
-              <div>
+              <div class="wow animate__fadeInRight" data-wow-duration="2s">
                 <h2>
                   <i class="fa fa-thumbs-up"></i> Promise
                 </h2>
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
               </div>
-              <div>
+              <div class="wow animate__fadeInLeft" data-wow-duration="2s">
                 <h2>
                   <i class="fa fa-thumbs-up"></i> Promise
                 </h2>
@@ -196,6 +236,595 @@
       </div>
     </section>
 <!--End of Skill section -->
+
+<!-- jumbotron section -->
+  <section class="jumbo">
+    <div class="jumbotron text-center">
+      <div>
+        <h1>Next Project???</h1>
+        <a href="#">Get a quote</a>
+      </div>
+    </div>
+  </section>
+<!-- End of jumbotron section -->
+
+<!-- work section -->
+  <section id="work">
+    <div class="container-fluid">
+      <div class="header text-center">
+        <h1><strong>Our Work</strong></h1>
+        <div class="header-underline"></div>
+        <p> lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      </div>
+      <div class="row image-container">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="img-box">
+              <a href="images/header-background.jpg">
+                <img src="/images/header-background.jpg" class="img-responsive" style="width: 100%;">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="img-box">
+              <a href="images/header-background.jpg">
+                <img src="/images/header-background.jpg" class="img-responsive" style="width: 100%;">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="img-box">
+              <a href="images/header-background.jpg">
+                <img src="/images/header-background.jpg" class="img-responsive" style="width: 100%;">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="img-box">
+              <a href="images/header-background.jpg">
+                <img src="/images/header-background.jpg" class="img-responsive" style="width: 100%;">
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+<!-- end of work section -->
+
+<!-- Team section -->
+<section id="team">
+  <div class="container text-center">
+    <div class="header text-center">
+      <h1><strong>Our Team</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <img src="/images/header-background.jpg" class="img-responsive rounded-circle img-thumbnail" alt="terminator" style="display:inline;">
+        <h2>Arnold - Team President</h2>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img src="/images/header-background.jpg" class="img-responsive rounded-circle img-thumbnail" alt="terminator" style="display:inline;">
+        <h2>Arnold - Team President</h2>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img src="/images/header-background.jpg" class="img-responsive rounded-circle img-thumbnail" alt="terminator" style="display:inline;">
+        <h2>Arnold - Team President</h2>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img src="/images/header-background.jpg" class="img-responsive rounded-circle img-thumbnail" alt="terminator" style="display:inline;">
+        <h2>Arnold - Team President</h2>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of team section -->
+
+<!-- numbers section -->
+<section id="numbers">
+  <div class="container text-center">
+    <div class="header text-center">
+      <h1><strong>Numbers Never Lie</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <i class="fa fa-users"></i>
+        <h2>Users</h2>
+        <h1><span class='numscroller' data-min='1' data-max='4000' data-delay='1000' data-increment='1'>400</span></h1>
+      </div>
+
+      <div class="col-4">
+        <i class="fa fa-envelope"></i>
+        <h2>Users</h2>
+        <h1><span class='numscroller' data-min='1' data-max='4000' data-delay='1000' data-increment='1'>400</span></h1>
+      </div>
+
+      <div class="col-4">
+        <i class="fa fa-archive"></i>
+        <h2>Users</h2>
+        <h1><span class='numscroller' data-min='1' data-max='4000' data-delay='1000' data-increment='1'>400</span></h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of numbers section -->
+
+<!-- Pricing section -->
+<section id="pricing">
+  <div class="container">
+    <div class="header text-center">
+      <h1><strong>Our Prices</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basic</h3>
+          </div>
+          <div class="panel-body">
+            <div class="title">
+              <h1>10$</h1>
+              <div class="header-underline"></div>
+            </div>
+            <ul>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <a href="#" class="btn" role="button">Sign Up</a> 1 month Free Trial
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basic</h3>
+          </div>
+          <div class="panel-body">
+            <div class="title">
+              <h1>10$</h1>
+              <div class="header-underline"></div>
+            </div>
+            <ul>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <a href="#" class="btn" role="button">Sign Up</a> 1 month Free Trial
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basic</h3>
+          </div>
+          <div class="panel-body">
+            <div class="title">
+              <h1>10$</h1>
+              <div class="header-underline"></div>
+            </div>
+            <ul>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <a href="#" class="btn" role="button">Sign Up</a> 1 month Free Trial
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Basic</h3>
+          </div>
+          <div class="panel-body">
+            <div class="title">
+              <h1>10$</h1>
+              <div class="header-underline"></div>
+            </div>
+            <ul>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+              <li>10GB Storage</li>
+              <hr>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <a href="#" class="btn" role="button">Sign Up</a> 1 month Free Trial
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Pricing section -->
+
+<!-- Goals section -->
+<section id="goals">
+  <div class="container">
+    <div class="header text-center">
+      <h1><strong>OUr Goals</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <i class="fa fa-home">
+        </i>
+        <div class="goals-title">
+          <h2><strong>Our Goals</strong></h2>
+          <h3 class="text-muted">lorem ipsum dolor sit ametm</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Goals section -->
+
+<!-- Porfolio section -->
+<section id="portfolio">
+  <div class="container-fluid">
+    <div class="header text-center">
+      <h1><strong>Our portfolio</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="portfolio-background">
+          <div class="portfolio-thumb">
+            <img src="/images/header-background.jpg" class="img-fluid" alt="cow">
+            <div class="portfolio-overlay">
+              <h2>Project</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="portfolio-background">
+          <div class="portfolio-thumb">
+            <img src="/images/header-background.jpg" class="img-fluid" alt="cow">
+            <div class="portfolio-overlay">
+              <h2>Project</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="portfolio-background">
+          <div class="portfolio-thumb">
+            <img src="/images/header-background.jpg" class="img-fluid" alt="cow">
+            <div class="portfolio-overlay">
+              <h2>Project</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="portfolio-background">
+          <div class="portfolio-thumb">
+            <img src="/images/header-background.jpg" class="img-fluid" alt="cow">
+            <div class="portfolio-overlay">
+              <h2>Project</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of portfolio section -->
+
+<!-- Client section -->
+<section id="clients">
+  <div class="container">
+    <div class="header text-center">
+      <h1><strong>Our Customers</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="logo" class="owl-carousel owl-theme">
+
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+          <div class="logos">
+            <div><img src="images/header-background.jpg" class="img-fluid"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of client section -->
+
+<!-- Qoutes section -->
+<section id="quotes">
+  <div class="quotes-background">
+    <div class="container">
+      <div class="header text-center">
+        <h1><strong>What They Say</strong></h1>
+        <div class="header-underline"></div>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="customers" class="owl-carousel owl-theme">
+
+            <div class="customer text-center">
+              <img src="/images/header-background.jpg" class="img-fluid rounded-circle img-thumbnail" alt="trump" style="display: inline;">
+              <blockquote>
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <footer>Donald Trump / President</footer>
+              </blockquote>
+            </div>
+            <div class="customer text-center">
+              <img src="/images/header-background.jpg" class="img-fluid rounded-circle img-thumbnail" alt="trump" style="display: inline;">
+              <blockquote>
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <footer>Donald Trump / President</footer>
+              </blockquote>
+            </div>
+            <div class="customer text-center">
+              <img src="/images/header-background.jpg" class="img-fluid rounded-circle img-thumbnail" alt="trump" style="display: inline;">
+              <blockquote>
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <footer>Donald Trump / President</footer>
+              </blockquote>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Quotes section -->
+
+<!-- contact section -->
+<section id="contact">
+  <div class="container-fluid">
+    <div class="header text-center">
+      <h1><strong>Contact Us</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 wow animate__rotateIn" data-wow-duration="4s">
+        <form>
+          <div class="row">
+
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" id="firstname" class="form-control input-lg" placeholder="first name">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" id="lastname" class="form-control input-lg" placeholder="last name">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="tel" id="phone" class="form-control input-lg" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control input-lg" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <textarea class="form-control" rows="6" placeholder="Your message Here"></textarea>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <button type="button" class="btn btn-block btn-lg">Submit Here</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-6 iframe wow animate__flipInY" data-wow-duration="5s">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26779.44394910275!2d11.507844088843136!3d3.8555891231958115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcff8176990a9%3A0xb9771df2e26ed5f1!2sYaounde%20Metropolitan%20Area!5e0!3m2!1sen!2scm!4v1589491244415!5m2!1sen!2scm" width="100%" height="370" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of contact section -->
+
+<!-- Footer section -->
+<section id="footer">
+  <div class="container-fluid text-center">
+    <div class="header text-center">
+      <h1><strong>Imagine</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-icons text-center">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="copyrights">
+          <h3 class="text-center">&copy;Copyrights 2017 - by coding Addict</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of footer section -->
+
+<!-- <section id="">
+  <div class="container">
+    <div class="header text-center">
+      <h1><strong>Header</strong></h1>
+      <div class="header-underline"></div>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+    <div class="row">
+      <div class="col-*-*">
+        
+      </div>
+    </div>
+  </div>
+</section> -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -203,5 +832,15 @@
     <!-- Wow js -->
     <script src="js/wow.min.js"></script>
     <script src="js/wow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- numScroller -->
+    <script src="js/numscroller-1.0.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.js"></script>
+
+    <script src="js/script.js"></script>
+
+
   </body>
 </html>
