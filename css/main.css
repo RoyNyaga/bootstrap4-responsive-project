@@ -133,7 +133,7 @@ body {
 
 .promise-picture {
 	height: 600px;
-	background: url("/images/header-background.jpg");
+	background: url("../images/header-background.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -263,7 +263,7 @@ body {
 /*numbers section*/
 #numbers{
 	padding: 40px;
-	background: url('/images/header-background.jpg') fixed;
+	background: url('../images/header-background.jpg') fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -459,7 +459,7 @@ body {
 /*quotes section*/
 #quotes{
 	color: whitesmoke;
-	background: url('/images/bavaria-munich-octoberfest-oktoberfest-9827.jpg') fixed;
+	background: url('../images/bavaria-munich-octoberfest-oktoberfest-9827.jpg') fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
